@@ -1,0 +1,141 @@
+<!-- todo:       Module no - 04.2            topic: Display Flex justify content align items -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display flex justify content and align items</title>
+
+    <!-- internal css style :  -->
+     <style>
+
+        .container{
+            display:flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .box{
+            border:3px solid  blue;
+            color: red;
+            font-weight: bold;
+            font-size: 2rem;
+            height: 100px;
+        }
+        .user-container {
+            display: flex;
+            gap: 10px;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            margin-top: 100px;
+            justify-content: space-around;
+
+        }
+        .user{
+            border: 3px solid green;
+            font-weight: bold;
+            font-size: 2rem;
+            color: red;
+            height: 100px;
+
+        }
+
+        .picture-container{
+            display: -webkit-inline-flex;
+            margin-top: 20px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .pic{
+            color: orange;
+            font-size: 2rem;
+            font-weight: bold;
+            border: 2px solid blue;
+            padding:10px;
+        }
+
+        .align{
+            border: 2px solid red;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            border-radius: 10px;
+        .itm{
+            border: 1px solid purple;
+            padding: 20px;
+            height: 100px;
+            font-weight: bold;
+            font-size: 2rem;
+            color: green;
+            border-radius: 10px;
+            text-align: center;
+            
+            
+            
+        }
+
+     </style>
+ </head>
+ <body>
+
+    <!-- display flex justify content :  -->
+    
+        <div class="container">
+            <div class="box">box items -1</div>
+            <div class="box">box items -2</div>
+            <div class="box">box items -3</div>
+            <div class="box">box items -4</div>
+            <div class="box">box items -5</div>
+            <div class="box">box items -6</div>
+            <div class="box">box items -7</div>
+            <div class="box">box items -8</div>
+            <div class="box">box items -9</div>
+            <div class="box">box items -10</div>
+        </div>
+
+
+        <!-- .user-container>.user*10{ user item - $}  -->
+        <div class="user-container">
+            <div class="user"> user item - 1</div>
+            <div class="user"> user item - 2</div>
+            <div class="user"> user item - 3</div>
+            <div class="user"> user item - 4</div>
+            <div class="user"> user item - 5</div>
+            <div class="user"> user item - 6</div>
+            <div class="user"> user item - 7</div>
+            <div class="user"> user item - 8</div>
+            <div class="user"> user item - 9</div>
+            <div class="user"> user item - 10</div>
+        </div>
+
+        <div class="picture-container">
+            <div class="pic">picture - 1</div>
+            <div class="pic">picture - 2</div>
+            <div class="pic">picture - 3</div>
+            <div class="pic">picture - 4</div>
+            <div class="pic">picture - 5</div>
+            <div class="pic">picture - 6</div>
+            <div class="pic">picture - 7</div>
+            <div class="pic">picture - 8</div>
+            <div class="pic">picture - 9</div>
+            <div class="pic">picture - 10</div>
+            <div class="pic">picture - 11</div>
+            <div class="pic">picture - 12</div>
+            <div class="pic">picture - 13</div>
+            <div class="pic">picture - 14</div>
+            <div class="pic">picture - 15</div>
+            <div class="pic">picture - 16</div>
+            <div class="pic">picture - 17</div>
+            <div class="pic">picture - 18</div>
+            <div class="pic">picture - 19</div>
+            <div class="pic">picture - 20</div>
+        </div>
+
+        <div class="align">
+            <div class="itm">items</div>
+        </div>
+ </body>
+ </html>
