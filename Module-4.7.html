@@ -1,0 +1,98 @@
+<!-- todo:           Module no- 4.7              topic: Static, Relative, Absolute, Fixed, Sticky -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static, Relative, Absolute, Fixed, Sticky</title>
+
+    <!-- internal css style  -->
+
+    <style>
+      ul{
+         margin-bottom: 50px;
+      }
+
+
+      .container{
+         /* border:2px dashed blue; */
+         width: 200px;
+         margin-bottom: 500px;
+         padding-bottom: 1000px;
+         position : relative;
+
+      }
+      div {
+         border: 2px dotted green;
+      }
+
+      .boy{
+
+      }
+
+      .ring{
+         /* relative : সরে যাবে তবে, জায়গা ছারবে না । তার জায়গা থেকে যাবে। */
+         /* position: relative; */
+         /* top:50px; */
+        /* left:30px */
+        /* bottom:30px; */
+
+        /* absolute: সরে যাবে এবং জায়গাও ছেরে দিবে, parent e relative দিলে parent এর অনুযায়ি position বদলাবে, আর parent e relative না দিলে browser er rout অনুযায়ি position change hobe.  */
+
+        /* position:absolute;
+        top:20px;
+        left:30px;
+        bottom:30px; */
+
+        /* fixed:  সে একই জায়গাতে fixed হয়ে থাকবে ।  */
+        /* position:fixed; */
+
+        /* sticky : */
+        position : sticky ;
+         top: 50px;
+
+
+
+      }
+
+      .water{
+            
+      }
+
+    </style>
+
+ </head>
+ <body>
+    <ul>
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <li>Sticky</li>
+        <li>Fixed</li>
+    </ul>
+
+    <!-- css position related topic: -->
+     <div class="container">
+      <div class="boy">
+         <img src="/image/boy.svg" alt="">
+      </div>
+
+      <div class="ring">
+         <img src="/image/ring.svg" alt="">
+      </div>
+
+      <div class="water">
+         <img src="/image/water.svg" alt="">
+      </div>
+
+
+     </div>
+
+
+     <section>
+      <h1>hello </h1>
+     </section>
+    
+ </body>
+ </html>
+
