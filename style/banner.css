@@ -1,0 +1,47 @@
+.hero-banner{
+    display: flex;
+    padding: 20px;
+    background-color: antiquewhite;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.hero-content{
+    flex: 1;
+    background-color: lightblue;
+    text-align: center;
+    align-items: center;
+
+}
+.hero-content h2{
+    color: rgb(184, 37, 37);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.hero-content p{
+    color: darkgray;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.hero-img-container{
+    flex: 1;
+    
+}
+.hero-img-container img{
+    width: 100%;
+    
+    background-color: rgb(185, 151, 139);
+    
+}
+.hero-content .click{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:0px solid ;
+    background-color: rgb(170, 119, 119);
+    cursor: pointer;
+}
+.hero-content .click:hover{
+    background-color: red;
+}
