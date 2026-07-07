@@ -1,0 +1,21 @@
+nav ul {
+    display: flex;
+    gap:20px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+nav ul li:hover{
+    cursor: pointer;
+    background-color: rgb(180, 176, 170);
+    border:1px solid palevioletred;
+    border-radius: 10px;
+}
